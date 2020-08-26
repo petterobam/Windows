@@ -44,4 +44,10 @@ $ThemeSettings.MyThemesLocation
 explorer $ThemeSettings.MyThemesLocation
 
 将 SpencerTechy.psm1 拷贝到该目录下
+
+Set-Theme SpencerTechy
+
+notepad $PROFILE
+
+把主题设置修改成自定义的 Set-Theme SpencerTechy
 ```
