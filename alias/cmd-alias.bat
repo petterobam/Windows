@@ -18,3 +18,9 @@
 @doskey user-info-spider=python D:\Workspace\Other\InfoSpider\tools\main.py
 :: 视频下载 https://github.com/iawia002/annie
 @doskey video-download=annie $*
+:: ciphey:https://github.com/Ciphey/Ciphey :模糊解密工具 python3 -m pip install -U ciphey
+@doskey decode=ciphey $*
+:: present:用控制台播放Markdown幻灯片，https://github.com/vinayak-mehta/present
+@doskey play-md=present $*
+:: social-cmd 社交常用小功能命令行工具 
+@doskey social=java -jar D:\Workspace-Netease\social-cmd\target\social-cmd.jar $*

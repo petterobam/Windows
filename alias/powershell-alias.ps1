@@ -1,3 +1,7 @@
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-Theme SpencerTechy
+
 # 将下面粘贴到 echo $PROFILE 输出的文件里，如果没有就添加该文件
 # alias 一些自定义的快捷命令
 function github-conf { git config user.name petterobam ; git config user.email 1460300366@qq.com }
@@ -18,3 +22,7 @@ function see-account { python D:\Workspace\Other\sherlock\sherlock  }
 function user-info-spider { python D:\Workspace\Other\InfoSpider\tools\main.py }
 # 视频下载 https://github.com/iawia002/annie
 Set-Alias -Name video-download -Value annie  
+# ciphey:https://github.com/Ciphey/Ciphey :模糊解密工具 python -m pip install -U ciphey 
+Set-Alias -Name decode -Value ciphey
+# present:用控制台播放Markdown幻灯片，https://github.com/vinayak-mehta/present
+Set-Alias -Name play-md -Value present
