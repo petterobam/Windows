@@ -24,3 +24,7 @@
 @doskey play-md=present $*
 :: social-cmd 社交常用小功能命令行工具 
 @doskey social=java -jar D:\Workspace-Netease\social-cmd\target\social-cmd.jar $*
+:: util-cmd Terminal常用小功能命令行工具 
+@doskey util=java -jar D:\Workspace\Java\util-cmd\target\util-cmd.jar $* 
+:: ssh-debug
+@doskey ssh-debug=ssh -p1046 -i C:\Users\Administrator\.ssh\pass\id_rsa -gN -L $* 
