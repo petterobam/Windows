@@ -28,3 +28,5 @@
 @doskey util=java -jar D:\Workspace\Java\util-cmd\target\util-cmd.jar $* 
 :: ssh-debug
 @doskey ssh-debug=ssh -p1046 -i C:\Users\Administrator\.ssh\pass\id_rsa -gN -L $* 
+:: idea-start
+:: @doskey idea-start=start D:\IDEA\IntelliJIDEALicenseServer\IntelliJIDEALicenseServer_windows_amd64.exe && cd C:\Program Files\Git && start git-bash.exe -c "git config --global gui.encoding utf-8 && cd /d/IDEA/idea-IU-173.3727.127/bin && ./idea.sh"
