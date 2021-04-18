@@ -26,3 +26,5 @@ Set-Alias -Name video-download -Value annie
 Set-Alias -Name decode -Value ciphey
 # present:用控制台播放Markdown幻灯片，https://github.com/vinayak-mehta/present
 Set-Alias -Name play-md -Value present
+# vpn pass
+function vpn-pass { python D:\Workspace-Netease\work-files\cmd-job\gauth.py }
