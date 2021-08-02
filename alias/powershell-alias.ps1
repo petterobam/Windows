@@ -38,5 +38,3 @@ function util-update { cd D:\Workspace\Java\util-cmd; git pull; mvn package }
 function vpn-pass { python D:\Workspace-Netease\work-files\cmd-job\gauth.py }
 # video CheckSum
 function videoCheckSum { cd D:\Workspace-Netease\work-files\cmd-job\ ; java CheckSumBuilder $($args[0]) $($args[1]) $($args[2]) }
-# netease cnpm
-function nenpm { cnpm --registry=http://rnpm.hz.netease.com/ --registryweb=http://npm.hz.netease.com/ --cache=D:\Workspace-Netease\front\.nenpm\.cache --userconfig=D:\Workspace-Netease\front\.nenpmrc $($args[0]) $($args[1]) $($args[2]) $($args[3]) $($args[4]) $($args[5]) }

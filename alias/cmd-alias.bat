@@ -47,7 +47,5 @@
 @doskey ...........=cd ../../../../../../../../../..
 @doskey ............=cd ../../../../../../../../../../..
 @doskey .............=cd ../../../../../../../../../../../..
-:: netease cnpm
-@doskey nenpm=cnpm --registry=http://rnpm.hz.netease.com/ --registryweb=http://npm.hz.netease.com/ --cache=D:\Workspace-Netease\front\.nenpm\.cache --userconfig=D:\Workspace-Netease\front\.nenpmrc $*
 :: set path
 @doskey set-path=D:\Workspace\Windows\alias\path\set_path $*
