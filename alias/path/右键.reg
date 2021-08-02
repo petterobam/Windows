@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\path\command]
+@="cmd /c cd /d\"%1\"\\.. &&D:\\Workspace\\Windows\\alias\\path\\set_path.bat %%cd%%"
+[HKEY_CLASSES_ROOT\Directory\Shell\path\command]
+@="cmd /c set_path %1"
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\path\command]
+@="cmd /c cd /d\"%1\"\\.. &&D:\\Workspace\\Windows\\alias\\path\\set_path.bat %%cd%%"

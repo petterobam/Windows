@@ -26,5 +26,17 @@ Set-Alias -Name video-download -Value annie
 Set-Alias -Name decode -Value ciphey
 # present:用控制台播放Markdown幻灯片，https://github.com/vinayak-mehta/present
 Set-Alias -Name play-md -Value present
+# python3
+Set-Alias -Name python3 -Value python
+# social-cmd utils 
+function social { java -jar D:\Workspace-Netease\social-cmd\target\social-cmd.jar $($args[0]) $($args[1]) $($args[2]) $($args[3]) $($args[4]) $($args[5]) }
+function social-update { cd D:\Workspace-Netease\social-cmd; git pull; mvn package }
+# util-cmd utils 
+function util { java -jar D:\Workspace\Java\util-cmd\target\util-cmd.jar $($args[0]) $($args[1]) $($args[2]) $($args[3]) $($args[4]) $($args[5]) }
+function util-update { cd D:\Workspace\Java\util-cmd; git pull; mvn package }
 # vpn pass
 function vpn-pass { python D:\Workspace-Netease\work-files\cmd-job\gauth.py }
+# video CheckSum
+function videoCheckSum { cd D:\Workspace-Netease\work-files\cmd-job\ ; java CheckSumBuilder $($args[0]) $($args[1]) $($args[2]) }
+# netease cnpm
+function nenpm { cnpm --registry=http://rnpm.hz.netease.com/ --registryweb=http://npm.hz.netease.com/ --cache=D:\Workspace-Netease\front\.nenpm\.cache --userconfig=D:\Workspace-Netease\front\.nenpmrc $($args[0]) $($args[1]) $($args[2]) $($args[3]) $($args[4]) $($args[5]) }
