@@ -49,3 +49,5 @@
 @doskey .............=cd ../../../../../../../../../../../..
 :: set path
 @doskey set-path=D:\Workspace\Windows\alias\path\set_path $*
+:: curl web time
+@doskey curl_time=curl -L -w "time_namelookup: %{time_namelookup}\ntime_connect: %{time_connect}\ntime_appconnect: %{time_appconnect}\ntime_pretransfer: %{time_pretransfer}\ntime_redirect: %{time_redirect}\ntime_starttransfer: %{time_starttransfer}\ntime_total: %{time_total}\n" $*
